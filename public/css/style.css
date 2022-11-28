@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.jogo {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao-escolher-palavra {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    
+    width: 200px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 140px;
+
+    background-color: #27AE60;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.imagem-forca{
+    width: 400px;
+    height: 467px;
+}
+
+.direita-jogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.placar {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    margin-right: 10px;
+}
+
+
+.letras {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    width: 694px;
+    height: 91px;
+    gap: 12px;
+    margin: 20px 150px 50px 210px;
+}
+
+.botao-letra {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+
+    background-color: #E1ECF4;
+    color: #39739D;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    border-radius: 3px;
+    border: 1px solid #39739D;
+}
+
+.chute {
+    display: flex;
+    margin: 0px 170px 56px 230px;
+    align-items: center;
+    gap: 15px;
+}
+
+.ja-sei {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input-chute {
+    width: 353px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #CCCCCC;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.botao-chute {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;
+    height: 40px;
+
+    background-color: #E1ECF4;
+    color: #39739D;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+
+    border-radius: 3px;
+    border: 1px solid #39739D;
+}
